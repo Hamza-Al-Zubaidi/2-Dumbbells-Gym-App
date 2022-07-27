@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id = "@+id/item1"
+      android:title = "Tips"
+      app:showAsAction= "never"/>
+
+  <item
+      android:id = "@+id/item2"
+      android:title = "Help"
+      app:showAsAction= "never"/>
+
+  <item
+      android:id = "@+id/item3"
+      android:title = "Terms Of Use"
+      android:icon = "@drawable/termsofuse"
+      app:showAsAction = "always"/>
+
+  <item
+      android:id = "@+id/item4"
+      android:title = "White Mode"
+      android:icon = "@drawable/whitemode"
+      app:showAsAction = "always"/>
+
+  <item
+      android:id = "@+id/item5"
+      android:title = "Dark Mode"
+      android:icon = "@drawable/darkmode"
+      app:showAsAction = "always"/>
+</menu>
+

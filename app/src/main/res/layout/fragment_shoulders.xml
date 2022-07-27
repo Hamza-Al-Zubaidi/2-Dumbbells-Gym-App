@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoulders">
+
+    <TextView
+        android:id="@+id/exercise19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise18" />
+
+    <TextView
+        android:id="@+id/exercise18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise17" />
+
+    <TextView
+        android:id="@+id/exercise16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="Shoulders"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combinations4" />
+
+    <TextView
+        android:id="@+id/exercise17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise16" />
+
+    <TextView
+        android:id="@+id/exercise20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise19" />
+
+    <Spinner
+        android:id="@+id/combinations4"
+        android:layout_width="326dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toTopOf="@+id/exercise16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combTitle4"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/combTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Combinations"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/combinations4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

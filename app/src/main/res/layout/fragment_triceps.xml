@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".triceps">
+
+    <Spinner
+        android:id="@+id/combinations6"
+        android:layout_width="326dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toTopOf="@+id/exercise26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combTitle6"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/exercise26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="Triceps"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/combinations6" />
+
+    <TextView
+        android:id="@+id/combTitle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Combinations"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/combinations6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exercise29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise28" />
+
+    <TextView
+        android:id="@+id/exercise28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise27" />
+
+    <TextView
+        android:id="@+id/exercise30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise29" />
+
+    <TextView
+        android:id="@+id/exercise27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:text="TextView"
+        android:textColor="#888585"
+        app:layout_constraintBottom_toTopOf="@+id/exercise28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
